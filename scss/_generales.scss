@@ -1,0 +1,16 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: $primary-color;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    li {
+        margin-right: 20px;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
