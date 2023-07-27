@@ -19,14 +19,18 @@ main > .container {
   padding: 30px 0;
 }
 
+body {
+  background-color: white;
+}
+
 .btn-outline-success {
-  background-color: rgb(20, 20, 145);
+  background-color: rgb(85, 85, 236);
   color: rgb(220, 220, 220);
 }
 
 .btn {
   background-color: white;
-  color: rgb(20, 20, 145);
+  color: rgb(85, 85, 236);
 }
 
 .imagen-principal {
@@ -85,11 +89,109 @@ ul li:hover {
   transform: scale(1.2);
 }
 
-img {
+.animacion {
   transition: 0.5s;
 }
-img:hover {
+.animacion:hover {
   transform: scale(1.05);
+}
+
+.tamanio {
+  width: 85%;
+  height: 12rem;
+  margin: 0 auto;
+}
+
+.text-center p {
+  text-align: left;
+  padding: 1rem;
+}
+
+.info-nosotros {
+  background-color: rgb(85, 85, 236);
+}
+.info-nosotros p,
+.info-nosotros h2,
+.info-nosotros h4 {
+  color: rgb(220, 220, 220);
+}
+
+.newsletter-section {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input[type=email] {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(85, 85, 236);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filters {
+  background-color: white;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 40px;
+}
+
+.seccion-bienvenida {
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: rgb(85, 85, 236);
+}
+.seccion-bienvenida p {
+  margin: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .seccion-bienvenida {
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .seccion-bienvenida {
+    font-size: 14px;
+  }
+}
+.pagina-producto {
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
