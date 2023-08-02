@@ -177,6 +177,26 @@ button {
     }
 }
 
+.formulario {
+    display: grid;
+    place-items: center;
+    width: 75%;
+}
+
+.form {
+    padding: 20px;
+    width: 75%;
+}
+
+input[type="email"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 100%;
+}
+
 .pagina-producto {
     background-color: #fff;
 }
