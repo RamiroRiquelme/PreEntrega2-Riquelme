@@ -28,7 +28,7 @@ body {
   color: rgb(220, 220, 220);
 }
 
-.btn {
+.btn, .formulario {
   background-color: white;
   color: rgb(85, 85, 236);
 }
@@ -212,6 +212,11 @@ input[type=email] {
 
 .pagina-producto {
   background-color: #fff;
+}
+
+.info-nosotros p {
+  color: #fff;
+  font-size: large;
 }
 
 /*# sourceMappingURL=style.css.map */

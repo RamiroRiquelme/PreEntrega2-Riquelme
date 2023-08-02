@@ -8,6 +8,10 @@ body {
     background-color: white;
 }
 
+@mixin fuente-blanca {
+    color: #fff;
+}
+
 .btn-outline-success {
     background-color: $secondary-color;
     color: $primary-color;
@@ -181,6 +185,7 @@ button {
     display: grid;
     place-items: center;
     width: 75%;
+    @extend .btn;
 }
 
 .form {
@@ -199,4 +204,9 @@ input[type="email"] {
 
 .pagina-producto {
     background-color: #fff;
+}
+
+.info-nosotros p {
+    @include fuente-blanca;
+    font-size: large;
 }
